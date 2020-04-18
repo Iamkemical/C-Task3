@@ -23,7 +23,7 @@ namespace NumberGuessingGame
                 {
                     int a;
                     Console.WriteLine("\nYou have {0} chances left", a = 6 - i);
-                    Console.Write("Guess a number:");
+                    Console.Write("Guess a number: ");
                     int numOne = Convert.ToInt32(Console.ReadLine());
                     rand.Next(1, 11);
                     if (numOne == rand.Next(1, 11))
@@ -32,7 +32,7 @@ namespace NumberGuessingGame
                     }
                     else
                     {
-                        Console.WriteLine("\nThat was wrong");
+                        Console.WriteLine("\nThat was wrong!");
                     }
                     
                 }
@@ -54,7 +54,7 @@ namespace NumberGuessingGame
                     }
                     else
                     {
-                        Console.WriteLine("\nThat was wrong");
+                        Console.WriteLine("\nThat was wrong!");
                     }
                 }
                 Console.WriteLine("\nGame over!");
@@ -75,7 +75,7 @@ namespace NumberGuessingGame
                     }
                     else
                     {
-                        Console.WriteLine("\nThat was wrong");
+                        Console.WriteLine("\nThat was wrong!");
                     }
                 }
                 Console.WriteLine("\nGame over!");
