@@ -10,10 +10,13 @@ namespace NumberGuessingGame
     {
         static void Main(string[] args)
         {
+            // Creating an instance of the Random class
             Random rand = new Random();
             Console.WriteLine("=>=>You're welcome to Iamkemical's Guessing game<=<=");
             Console.Write("Press any key to commence playing the game");
             Console.ReadKey();
+            
+             // Users inputs what level of difficulty they can handle
             Console.Write("\nE- Easy, M- Medium, H- Hard\nEnter your Preferred level of difficulty: ");
             string userInput = Console.ReadLine();
             if (userInput == "E")
@@ -36,6 +39,7 @@ namespace NumberGuessingGame
                     }
                     
                 }
+                // If all the above conditions are not satisfied the loops breaks
                 Console.WriteLine("\nGame over!");
             }
             else if (userInput == "M")
