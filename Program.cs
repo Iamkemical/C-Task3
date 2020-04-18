@@ -56,7 +56,6 @@ namespace NumberGuessingGame
                     {
                         Console.WriteLine("\nThat was wrong");
                     }
-
                 }
                 Console.WriteLine("\nGame over!");
             }
@@ -78,7 +77,6 @@ namespace NumberGuessingGame
                     {
                         Console.WriteLine("\nThat was wrong");
                     }
-
                 }
                 Console.WriteLine("\nGame over!");
             }
