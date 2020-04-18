@@ -36,8 +36,7 @@ namespace NumberGuessingGame
                     else
                     {
                         Console.WriteLine("\nThat was wrong!");
-                    }
-                    
+                    }  
                 }
                 // If all the above conditions are not satisfied the loops breaks
                 Console.WriteLine("\nGame over!");
